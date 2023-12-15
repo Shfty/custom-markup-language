@@ -1,0 +1,3 @@
+TaromaruST(
+    enemies: Include("data/taromaru-st/enemies.ron")
+)

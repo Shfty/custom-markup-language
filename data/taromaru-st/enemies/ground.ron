@@ -1,0 +1,93 @@
+List([
+    Enemy(
+        name: "Ninja (Sword)",
+        image: "someurl",
+        health: 3,
+        points: 1,
+        description: Include("data/taromaru-st/enemies/ground/ninja-sword.ron")
+    ),
+    Enemy(
+        name: "Ninja (Kusari-gama)",
+        image: "someurl",
+        health: 3,
+        points: 1,
+        description: "Basic Ninja"
+    ),
+    Enemy(
+        name: "Blue Ninja",
+        image: "someurl",
+        health: 3,
+        points: 1,
+        description: "Basic Ninja"
+    ),
+    Enemy(
+        name: "Green Ninja",
+        image: "someurl",
+        health: 3,
+        points: 1,
+        description: "Basic Ninja"
+    ),
+    Enemy(
+        name: "Red Ninja",
+        image: "someurl",
+        health: 3,
+        points: 1,
+        description: "Basic Ninja"
+    ),
+    Enemy(
+        name: "Black Kunoichi",
+        image: "someurl",
+        health: 3,
+        points: 1,
+        description: "Basic Kunoichi"
+    ),
+    Enemy(
+        name: "Black Kunoichi (Winged)",
+        image: "someurl",
+        health: 3,
+        points: 1,
+        description: "Basic Kunoichi"
+    ),
+    Enemy(
+        name: "Red Kunoichi",
+        image: "someurl",
+        health: 3,
+        points: 1,
+        description: "Basic Kunoichi"
+    ),
+    Enemy(
+        name: "Bomber Kunoichi",
+        image: "someurl",
+        health: 3,
+        points: 1,
+        description: "Basic Kunoichi"
+    ),
+    Enemy(
+        name: "Zombie",
+        image: "someurl",
+        health: 3,
+        points: 1,
+        description: "Strong, long reach, slow melee attack"
+    ),
+    Enemy(
+        name: "Worshipful Procession",
+        image: "someurl",
+        health: 3,
+        points: 1,
+        description: "Harmless priests that appear in a line. Can't be one-shot; collapses after the first hit and exposes its second life point"
+    ),
+    Enemy(
+        name: "Miko",
+        image: "someurl",
+        health: 3,
+        points: 1,
+        description: "Shrine maiden.\nCan't be possessed.\nClose: Summons ice spikes.\nFar: Launches projectiles that curve upward."
+    ),
+    Enemy(
+        name: "Claw Ogre",
+        image: "someurl",
+        health: 3,
+        points: 1,
+        description: "Close: Overhead claw swipe. Far: Spinning leap."
+    ),
+])

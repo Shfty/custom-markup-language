@@ -1,0 +1,30 @@
+List([
+    Enemy(
+        name: "Wisp",
+        image: "someurl",
+        health: 1,
+        points: 1,
+        description: Include("data/taromaru-st/enemies/air/wisp.ron")
+    ),
+    Enemy(
+        name: "Mage",
+        image: "someurl",
+        health: 1,
+        points: 1,
+        description: "Moves horizontally in wide motions, pausing to fire aimed bullets at the player"
+    ),
+    Enemy(
+        name: "Floating Head",
+        image: "someurl",
+        health: 1,
+        points: 1,
+        description: "Floats slowly across the screen, occasionally firing a slow aimed bullet.\nLaunches an aimed arcing revenge bullet on death."
+    ),
+    Enemy(
+        name: "Tengu",
+        image: "someurl",
+        health: 1,
+        points: 1,
+        description: "Moves around the screen, launching tornadoes that persist briefly on impact"
+    ),
+])

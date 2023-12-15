@@ -1,0 +1,6 @@
+Enemies(
+    DoubleList([
+        Include("data/taromaru-st/enemies/ground.ron"),
+        Include("data/taromaru-st/enemies/air.ron"),
+    ])
+)
